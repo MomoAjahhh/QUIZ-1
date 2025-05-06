@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.canvas {
+    height: 400px;
+    width: 700px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.waktu h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+.green {
+    color: green;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mulai {
+    background-color: green;
+    color: white;
+}
+
+.berhenti {
+    background-color: yellow;
+    color: black;
+}
+
+.reset {
+    background-color: red;
+    color: white;
+}
